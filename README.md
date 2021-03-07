@@ -15,8 +15,8 @@ You may wan't to patch the firmware youself. However since this is currently the
 - Click on the save button and save (Takes again a few seconds, then a success message should show up)
 - Save your backup vbios on another other PC or Cloud so you can use another pc to recover if GPU breaks and blind recovery is not working either
 - Put your vbios and 113-253OCH-X005_updGOP.rom into your atiflash folder
-- Edit line 34 to the path to yout atiflash folder in recover.bat and gop_update.bat (do not remove brackets)
-- Edit line 35 in recover.bat to match you vbios name with file ending in name!
+- Edit line 34 to the path to match your atiflash folder in recover.bat and gop_update.bat (do not remove brackets)
+- Edit line 35 in recover.bat to match your vbios name with file ending in name!
 - Start the gop_update.bat for GOP firmware update
 - Now wait until the flash is complete. It will take a few seconds, do not do anything while flashing!
 - Restart your machine to complete the update. Now you should be able to enable WHQL support in your bios ;D
