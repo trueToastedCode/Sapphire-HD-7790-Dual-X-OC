@@ -1,6 +1,6 @@
 # Sapphire-HD-7790-Dual-X-OC GDDR5 1GB UEFI
 UEFI support with official vbios
-- Create DIY update for another graphics card (This did also work for me before the official update): GOPUpd (https://www.win-raid.com/t892f16-AMD-and-Nvidia-GOP-update-No-requests-DIY.html)
+- Create DIY update for another graphics card without UEFI support (This did also work for me before the official update): GOPUpd (https://www.win-raid.com/t892f16-AMD-and-Nvidia-GOP-update-No-requests-DIY.html)
 
 ![update](https://user-images.githubusercontent.com/44642574/110971550-4fdbce80-835b-11eb-9b90-8a539106c231.PNG)
 
@@ -25,3 +25,21 @@ Make sure you **have** the **same gpu model**. **READ the WHOLE README** before 
 - Now wait until the flash is complete. It will take a few seconds, do not do anything while flashing!
 - Restart your machine to complete the update. Now your gpu should have UEFI support ;D
 - (Use recover.bat for blind stock firmware flash: You can launch it with WinR, then type the full path to flash_stock.bat and press enter)
+
+Update log:
+```
+Old SSID: E253
+New SSID: E253
+older ASIC, vbios is not signed.
+Old DeviceID: 665C
+New DeviceID: 665C
+Old Product Name: C58203 Bonaire XT A1 GDDR5 1GB 64Mx32 300e/150m
+New Product Name: C58203 Bonaire XT A1 GDDR5 1GB 64Mx32 300e/150m
+Old BIOS Version: 015.032.000.001.000000
+New BIOS Version: 015.041.000.001.000000
+Flash type: M25P10/c
+20000/20000h bytes programmed
+20000/20000h bytes verified
+
+Restart System To Complete VBIOS Update.
+```
